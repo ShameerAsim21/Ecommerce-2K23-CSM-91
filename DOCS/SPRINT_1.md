@@ -115,3 +115,12 @@ erDiagram
         int quantity
         decimal unit_price
     }
+```
+
+### Relational Cardinality & Integrity Rules
+
+* `CATEGORIES` to `PRODUCTS` (`1:N`): One category classifies zero or many botanical products; each product references exactly one parent category foreign key.
+* `USERS` to `CARTS` (`1:1`): Each registered account owns exactly one active persistent cart instance.
+* `CARTS` to `CART_ITEMS` to `PRODUCTS` (`N:M` associative): Resolves many-to-many relationships by tracking specific items and line-item quantities added to a cart.
+* `USERS` to `ORDERS` (`1:N`): A user may submit zero or multiple historical purchase orders over time.
+* `ORDERS` to `ORDER_ITEMS` to `PRODUCTS` (`N:M` associative): Captures individual purchase lines while permanently preserving the `unit_price` at the exact time of transaction, maintaining immutable financial records regardless of future price adjustments in the catalog.
