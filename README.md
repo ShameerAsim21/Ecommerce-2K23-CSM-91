@@ -1,11 +1,12 @@
 # Root & Sprout - Curated Botanical Nursery & Care Hub
+## Course: E-Commerce
+## Tech Stack: React + Node.js/Express + PostgreSQL.
 
-E-Commerce course project (University of Sindh, Jamshoro). React + Node.js/Express + PostgreSQL.
 
-| Sprint | Document | Status |
-|---|---|---|
-| 1 - Architecture & scope | [docs/SPRINT_1.md](docs/SPRINT_1.md) | Submitted |
-| 2 - Catalog data foundation | [docs/SPRINT_2.md](docs/SPRINT_2.md) | This sprint |
+| Sprint | Document |
+|---|---|
+| 1 - Architecture & scope | [docs/SPRINT_1.md](docs/SPRINT_1.md) |
+| 2 - Catalog data foundation | [docs/SPRINT_2.md](docs/SPRINT_2.md) |
 
 ## Sprint 2: local setup (backend)
 
