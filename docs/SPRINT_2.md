@@ -1,7 +1,7 @@
 # Sprint 2: Catalog Data Foundation
 
 **Project:** Root & Sprout – Curated Botanical Nursery & Care Hub
-**Stack (from Sprint 1):** React (not touched this sprint) · Node.js + Express · PostgreSQL
+
 **Document file:** `docs/SPRINT_2.md`
 
 ---
