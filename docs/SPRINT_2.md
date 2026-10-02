@@ -55,9 +55,7 @@ Traceable to [`docs/SPRINT_1.md`](SPRINT_1.md).
 
 ## 3. Updated ERD and data dictionary
 
-### 3.1 Diagram
-
-Original Sprint 1 entities (`USERS`, `CARTS`, `CART_ITEMS`, `ORDERS`, `ORDER_ITEMS`) are shown together with the new catalog entities. The connections the manual asks to plan are the last three relationships: **`SKUS → CART_ITEMS`** and **`SKUS → ORDER_ITEMS`**, plus `CARTS`/`ORDERS` through `USERS`. The diagram source is also available as [`docs/erd.mmd`](erd.mmd) and was checked with the Mermaid parser.
+### 3.1 ERD Diagram
 
 ```mermaid
 erDiagram
